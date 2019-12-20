@@ -13,5 +13,3 @@ app.get('/', (req, res) => {
 })
 
 app.use('/projects', require('./controllers/projects'))
-
-app.listen(3000, () => {console.log('🦊 Andre 3000 🐧')})
