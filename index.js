@@ -12,5 +12,6 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
+app.use('/projects', require('./controllers/projects'))
 
 app.listen(3000, () => {console.log('🦊 Andre 3000 🐧')})
